@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Web Frontend Development I</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I">
+    <meta name="author" content="Lucia Robles">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="100" height="100">
+        <span>Lucia's Profile</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Chamber Assignment</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>I am Lucia Robles.  I'm studying Software Development in BYU-Idaho. I am from Guatemala and I really enjoy spending time with my family, swimming, listening to music, and playing video
+                games. I served a mission in my country and it was one of the most beautiful experiences I have ever had in my life.</p>
+            </div>
+            <div class="student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/student-photo.webp" alt="Student Photo" loading="lazy" width="245" height="300">
+            </div>
+            <div class="web-certificate-courses">
+                <h2>Web Certificate Courses</h2>
+                <div class="course-filter">
+                    <button><a href="#" id="all-courses">All Courses</a></button>
+                    <button><a href="#" id="cse-courses">CSE Courses</a></button>
+                    <button><a href="#" id="wdd-courses">WDD Courses</a></button>
+                </div>
+                <div class="course-list"></div>
+            </div>
+        </section>
+        <p class="credits">The total credits for course listed above is: <span id="total-credits"></span></p>
+    </main>
+    
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="Facebook Logo" width="100" height="100"></a>
+            <a href="https://github.com/luroblesf"><img src="images/github.svg" alt="GitHub Logo" width="100" height="100"></a>
+            <a href="https://www.linkedin.com/in/imelda-lucia-r-7a4a0911b"><img src="images/linkedin.svg" alt="LinkedIn Logo" width="100" height="100"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> &#8226; Lucia Robles &#8226; Guatemala</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
