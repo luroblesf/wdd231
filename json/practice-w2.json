@@ -1,0 +1,23 @@
+{
+    "familyName": "Thompson",
+    "dateMove": "2020-02-01",
+    "numberRecord": 320,
+    "visited": true,
+    "familyMember": [
+        {
+        "name": "John",
+        "gender": "Male",
+        "birthdate": "1990-01-01"
+        },
+        {
+        "name": "Jane",
+        "gender": "Female",
+        "birthdate": "1995-05-05"
+        },
+        {
+        "name": "Jim",
+        "gender": "Male",
+        "birthdate": "1992-02-02"
+        }
+    ]
+}
