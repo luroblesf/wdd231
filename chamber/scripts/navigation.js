@@ -14,7 +14,7 @@ document.querySelector("#lastModified").innerHTML = `Last modified: ${document.l
 
 /* Directory */
 
-const url = "https://luroblesf.github.io/wdd230/chamber/data/members.json";
+const url = "https://luroblesf.github.io/wdd231/chamber/data/members.json";
 const cards = document.querySelector("#cards");
 
 async function getMembersData() {
