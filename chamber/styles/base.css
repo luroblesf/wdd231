@@ -1,9 +1,3 @@
-/* BASE STYLES */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
-* {
-    font-family: dosis, sans-serif;
-}
-
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -18,6 +12,7 @@ header h1 {
     grid-column: -1 / -1;
     font-size: 2.5rem;
     color: rgb(36, 7, 80);
+    font-family: dosis, sans-serif;
 }
 
 header img {
@@ -30,6 +25,7 @@ header span {
     font-size: 1.2rem;
     color: rgb(36, 7, 80);
     font-weight: 600;
+    font-family: dosis, sans-serif;
 }
 
 .hamburger {
@@ -67,7 +63,7 @@ header span {
     display: block;
     padding: 0.8rem 12px;
     color: rgb(36, 7, 80);
-
+    font-family: dosis, sans-serif;
     text-decoration: none;
     text-align: left;
     border-bottom: solid 1px rgb(143, 143, 143);
@@ -85,13 +81,16 @@ header span {
 h1 {
     margin-left: 12px;
     color: rgb(36, 7, 80);
+    font-family: dosis, sans-serif;
 }
 
 h2 {
     color: rgb(36, 7, 80);
+    font-family: dosis, sans-serif;
 }
 h3 {
     color: rgb(36, 7, 80);
+    font-family: dosis, sans-serif;
 }
 
 footer {
@@ -127,6 +126,7 @@ footer p {
 .social img {
     width: 15px;
     height: 15px;
+    background-color: orange;
 }
 .social a:hover {
     background-color: rgb(188, 188, 188);
@@ -137,6 +137,7 @@ footer p {
     margin: 0.1rem;
     text-align: left;
     font-size: 0.7rem;
+    font-family: dosis, sans-serif;
 }
 
 /*DIRECTORY STYLES*/
@@ -145,12 +146,14 @@ footer p {
     margin: 0.1rem;
     font-size: 1rem;
     color: rgb(36, 7, 80);
+    font-family: dosis, sans-serif;
 
 }
 #cards section>p {
     margin: 0.1rem;
     color: rgb(36, 7, 80);
     font-size: 0.8rem;
+    font-family: dosis, sans-serif;
 }
 
 #cards img {
@@ -163,12 +166,13 @@ footer p {
 #directory {
     margin: 2rem;
     position: relative;
-    padding: 20px;
+    padding: 2px;
 }
 
 #directory h2 {
     font-size: 1.5rem;
     margin: 0 0 1rem 0;
+    font-family: dosis, sans-serif;
 }
 
 .button-menu {
@@ -185,6 +189,7 @@ footer p {
     color: rgb(36, 7, 80);
     cursor: pointer;
     font-size: 1.1rem;
+    font-family: dosis, sans-serif;
 }
 
 .button-menu button:hover {
@@ -195,46 +200,29 @@ footer p {
     background-color: rgb(36, 7, 80);
     color: white;
     cursor: pointer;
+    font-family: dosis, sans-serif;
 }
-
-.member {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0.25rem;
-    padding: 0.35rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-    color: rgb(36, 7, 80);
-    height: 310px;
-}
-
-.member h3 {
-    font-size: 0.8rem;
-}
-
-.member p {
-    font-size: 0.5rem;
-}
-
-.member a {
-    font-size: 0.5rem;
-    color: black;
-}
+ img {
+     background-color: white;
+ }
 
 .grid {
     display: flex;
     flex-direction: column;
     row-gap: 5px;
-    grid-gap: 5px;
+    grid-gap: 30px;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .grid section {
     text-align: center;
-    background-color: rgb(174, 173, 173);
-    box-shadow: 3px 3px 3px rgb(86, 84, 84);
+    font-family: dosis, sans-serif;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: solid 1px rgb(143, 143, 143);
+    box-shadow: 3px 3px 3px rgb(65, 63, 63);
 }
 
 .grid section>* {
@@ -244,6 +232,7 @@ footer p {
 .list {
     display: flex;
     flex-direction: column;
+    padding: 30px;
 }
 
 .list section {
@@ -259,6 +248,7 @@ footer p {
 
 .list section>* {
     margin: 0 1rem;
+    font-family: dosis, sans-serif;
 }
 
 .list section img {
@@ -268,6 +258,7 @@ footer p {
 .list section h3 {
     font-size: 0.75rem;
     grid-area: title;
+    font-family: dosis, sans-serif;
 }
 
 .list section p:nth-of-type(1) {
