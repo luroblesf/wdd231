@@ -6,15 +6,19 @@
     <title>API Weather</title>
     <meta name="description" content="WDD 231 - Web Frontend Development II">
     <meta name="author" content="Lucia Robles">
+    <script defer src="scripts/weather.js"></script>
+    <link rel="stylesheet" href="w03/styles/weather-practice.css">
 </head>
 <body>
 <h1>OpenWeatherMap.org API Test</h1>
 <main>
-    <p>The current temperature in Trier, Germany is <span id="current-temp"></span></p>
-    <figure>
-        <img id="weather-icon" src="" alt="">
-        <figcaption></figcaption>
-    </figure>
+<h1>The current temperature in</h1>
+<div class="card-weather">
+    <h2 id="town"></h2>
+    <img id="graphic" src="" alt="">
+    <p id="description"></p>
+    <p id="temperature"></p>
+</div>
 </main>
 <footer>
     Lucia Robles | OpenWeatherMap.org | CC BY-SA 4.0

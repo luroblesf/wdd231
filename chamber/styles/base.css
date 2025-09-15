@@ -286,3 +286,137 @@ footer p {
 .list section:nth-child(odd) {
     background-color: #d4d4d4;
 }
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+    height: calc(100vh - 120px);
+    padding: 1.5rem;
+    background-image: linear-gradient(to bottom,
+        rgba(36, 7, 80),
+        rgba(0, 0, 0, 0.4)),
+        url("../images/hero-image.webp");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.hero-container {
+    margin: 0.1rem;
+    padding-top: 0.5rem;
+}
+.hero h2 {
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    text-shadow: 0 3px 6px rgba(255, 255, 255, 0.17);
+}
+.hero p {
+    font-size: 1.8rem;
+    text-shadow: 0 3px 6px rgba(255, 249, 249, 0.17);
+    margin-top: 0.1rem;
+}
+.hero-btn {
+    color: rgb(36, 7, 80);
+    background-color: orange;
+    padding: 2% 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 2rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.27);
+}   
+.hero a:hover {
+    background-color:rgb(36, 7, 80);
+    color: orange;
+    cursor: pointer;
+    font-family: dosis, sans-serif;
+}
+#content {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+.card-weather {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    color: rgb(36, 7, 80);
+}
+.card-weather h1 {
+    color: rgb(36, 7, 80);
+    border-radius: 10px;
+    background-color: orange;
+    border-right: #747171 solid;
+}
+.card-weather #description {
+    text-transform: capitalize;
+    color: rgb(23, 53, 53);
+    margin: 0.3rem 0;
+}
+.card-forecast ul {
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: rgb(36, 7, 80);
+}
+.card-weather #temperature {
+    font-size: 2rem;
+    color: rgb(36, 7, 80);
+    margin: 0.3rem 0;
+}
+.events {
+        background-color: rgb(237, 237, 237);
+}
+.events h1 {
+    color: rgb(36, 7, 80);
+    border-radius: 10px;
+    background-color: orange;
+    border-right: #747171 solid;
+}
+.events img {
+    width: 100%;
+}    
+.events h4 {
+    font-size: 1rem;
+}
+.events p {
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.spotlight-div {
+    background-color: rgb(237, 237, 237);
+}
+.spotlight-div h1 {
+    color: rgb(36, 7, 80);
+    border-radius: 10px;
+    background-color: orange;
+    border-right: #747171 solid;
+}
+#weather-list  {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding: 2px;
+}
+.card-forecast h3{
+    font-size: 18px;
+    color: rgb(36, 7, 80);
+}
+.day-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.temperature,
+.description {
+    font-size: 0.9rem;
+}
+.weather-icon {
+    width: 50px;
+}
+
+

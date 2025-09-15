@@ -1,0 +1,20 @@
+.card-weather {
+    border: 1px sold #5d6f67;
+    background-color: #f6f0da;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-weather h2{
+    color: #3a5250;
+    margin: 0.3rem 0;    
+}
+.card-weather #description {
+    text-transform: capitalize ;
+    color: #3a5250;
+    margin: 0.3rem 0;
+}
+.card-weather #temperature {
+    font-size: 2rem;
+    color:#537279;
+    margin: 0.3rem 0;
+}

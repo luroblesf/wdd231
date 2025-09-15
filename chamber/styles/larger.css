@@ -62,7 +62,7 @@
     h3 {
        font-size: 1rem;
        font-family: dosis, sans-serif;
-       color: #000;
+       color: #000000;
     }
 
     footer p {
@@ -94,5 +94,87 @@
     }
     img {
      background-color: white;
+    }
+    #content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.3rem;
+        background-color: #ffffff;
+    }
+    .events {
+    background-color: rgb(237, 237, 237);
+        margin:0.5rem;
+        width: 230px;
+    }
+    .events h1 {
+        text-align: center;
+        color: rgb(36, 7, 80);
+        font-size: xx-large;
+        border-radius: 10px;
+        background-color: orange;
+        border-right: #747171 solid;
+     }  
+    .events img {
+        width: 170px;
+        height: 130px;
+    } 
+    h4, h3, p {
+        font-size: 1.3rem;
+    }
+    .card-weather h1 {
+        text-align: center;
+        font-size: xx-large;
+        background-color: orange;
+        color: rgb(36, 7, 80);
+        border-radius: 10px;
+        border-right: #747171 solid;
+    }
+    .card-weather #description {
+        color: black;
+        margin: 0.3rem 0;
+    }
+    .card-weather #temperature {
+        font-size: 2rem;
+        color: black;
+        margin: 0.3rem 0;
+        padding-bottom: 2rem;
+    }
+    .card-forecast h3{
+        font-size: 1rem;
+    }
+    .card-forecast ul {
+        list-style-type: none;
+        font-size: 1.3rem;
+        color: rgb(36, 7, 80);
+        text-align: center;
+    }
+    .spotlight-div {
+        background-color: rgb(237, 237, 237);
+        margin-top: 0.6rem;
+        width: 255px;
+    }
+    .spotlight-div h1 {
+        text-align: center;
+        color: rgb(36, 7, 80);
+        font-size: xx-large;
+        border-radius: 10px;
+        background-color: orange;
+        border-right: #747171 solid;
+    }
+    .spotlight-div #cards p {
+        text-align: center;
+        color: rgb(36, 7, 80);
+        font-size: 15px;
+    }
+    .day-name {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    .temperature,
+    .description {
+        font-size: 0.7em;
+    }
+    .weather-icon {
+        width: 50px;
     }
 }
