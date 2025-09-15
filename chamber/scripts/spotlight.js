@@ -1,9 +1,9 @@
-const url = "https://luroblesf.github.io/wdd231/chamber/data/members.json";
+const urlMembers = "https://luroblesf.github.io/wdd231/chamber/data/members.json";
 const cards = document.querySelector("#cards");
 
 async function getMembersData() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(urlMembers);
         if (!response.ok) {
             throw new Error("Failed to fetch data");
         }
@@ -18,9 +18,13 @@ async function getMembersData() {
 getMembersData();
 
 const displayMembers = (members) => {
-    const seleccionados = members.sort(() => 0.5 - Math.random()).slice(0, 3);
-    seleccionados.forEach((member) => {
 
+    const filtered = members.filter(member =>
+        member.membership === 'Gold Membership' || member.membership === 'Silver Membership');
+
+    const selec = filtered.sort(() => 0.5 - Math.random()).slice(0, 3);
+
+    selec.forEach((member) => {
         const card = document.createElement("section");
         const name = document.createElement("h2");
         const birthdate = document.createElement("p");
@@ -30,13 +34,12 @@ const displayMembers = (members) => {
         const date = document.createElement("p");
         const portrait = document.createElement("img");
 
-
-        name.textContent = `${member.name}`;
-        birthdate.textContent = `${member.address}`;
-        birthplace.textContent = `${member.phone}`;
-        web.textContent = `${member.website}`
-        membershipLevel.textContent = `${member.membership}`
-        date.textContent = `${member.since}`
+        name.textContent = member.name;
+        birthdate.textContent = member.address;
+        birthplace.textContent = member.phone;
+        web.textContent = member.website;
+        membershipLevel.textContent = `Membership: ${member.membership}`;
+        date.textContent = `Member Since: ${member.since}`;
 
         portrait.setAttribute("src", member.imageurl);
         portrait.setAttribute("alt", member.name);
