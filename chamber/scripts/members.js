@@ -21,8 +21,8 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         const card = document.createElement("section");
         const name = document.createElement("h2");
-        const birthdate = document.createElement("p");
-        const birthplace = document.createElement("p");
+        const address = document.createElement("p");
+        const phone = document.createElement("p");
         const web = document.createElement("p");
         const membershipLevel = document.createElement("p");
         const date = document.createElement("p");
@@ -30,8 +30,8 @@ const displayMembers = (members) => {
 
 
         name.textContent = `${member.name}`;
-        birthdate.textContent = `${member.address}`;
-        birthplace.textContent = `${member.phone}`;
+        address.textContent = `${member.address}`;
+        phone.textContent = `${member.phone}`;
         web.textContent = `${member.website}`
         membershipLevel.textContent = `${member.membership}`
         date.textContent = `${member.since}`
@@ -44,6 +44,8 @@ const displayMembers = (members) => {
 
         card.appendChild(portrait);
         card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
         card.appendChild(web);
         card.appendChild(membershipLevel);
         card.appendChild(date);
