@@ -111,6 +111,7 @@
         color: rgb(36, 7, 80);
         font-size: xx-large;
         border-radius: 10px;
+        margin: 1rem;
         background-color: orange;
         border-right: #747171 solid;
      }  
@@ -127,6 +128,7 @@
         background-color: orange;
         color: rgb(36, 7, 80);
         border-radius: 10px;
+        margin: 1rem;
         border-right: #747171 solid;
     }
     .card-weather #description {
@@ -158,6 +160,7 @@
         color: rgb(36, 7, 80);
         font-size: xx-large;
         border-radius: 10px;
+        margin: 1rem;
         background-color: orange;
         border-right: #747171 solid;
     }
