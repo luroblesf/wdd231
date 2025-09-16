@@ -53,7 +53,6 @@ const displayMembers = (members) => {
         cards.appendChild(card);
     });
 };
-
 const gridBtn = document.querySelector("#gridBtn");
 const listBtn = document.querySelector("#listBtn");
 const display = document.querySelector("article");
