@@ -1,0 +1,95 @@
+@media only screen and (min-width: 38rem) {
+    header, 
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header img {
+        width: 900%;
+        margin: 50%;
+    }
+    header span {
+        font-size: 1.5rem;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        display: block;
+                cursor: pointer;
+    }
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .navigation li {
+        flex: 1 1 100%;
+    }
+    .navigation a {
+        border: none;
+        background-color: white;
+        color: #0948b1;
+        font-size: 1.2rem;
+        text-align: right;
+        margin-top: -5rem;
+    }
+    .navigation a:hover {
+        background-color: #0097a7;
+        color: #0948b1;
+    }
+    .navigation li.current a {
+        background-color: #0948b1;
+        color: white;
+    }
+    .hero-container {
+        background-image: url('../images/hero.webp');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        color: white;
+        text-align: center;
+    }
+    .hero-container::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    .hero {
+        position: relative;
+        z-index: 2;
+        max-width: 600px;
+        padding: 20px;
+    }
+    .hero h1 {
+        font-size: 4rem;
+        margin: 0;
+        letter-spacing: 2px;  
+    }
+    .hero h2 {
+        font-size: 3rem;
+        margin: 10px 0;
+        font-weight: 300;
+        text-align: left;
+        color: #0097a7;
+    }
+    .hero p {
+        font-size: 1.5rem;
+        margin: 20px 0;
+        text-align: left;
+    }
+    footer p {
+        font-size: 0.5rem;
+        text-align: center;
+   }
+}
