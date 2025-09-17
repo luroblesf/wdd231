@@ -8,3 +8,5 @@ navButton.addEventListener('click', () => {
 
 const currentYear = document.getElementById("currentyear");
 currentYear.innerText = new Date().getFullYear();
+
+document.querySelector("#lastModified").innerHTML = `Last modified: ${document.lastModified}`;
