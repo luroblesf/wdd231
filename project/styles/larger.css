@@ -18,13 +18,14 @@
     }
     .navigation {
         display: block;
-                cursor: pointer;
+        cursor: pointer;
+        max-width: 350px;
     }
     .navigation ul {
         display: flex;
         justify-content: space-around;
         list-style: none;
-        padding-left: 0;
+        padding-right: 1px;
         margin: 0;
     }
     .navigation li {
@@ -35,7 +36,7 @@
         background-color: white;
         color: #0948b1;
         font-size: 1.2rem;
-        text-align: right;
+        text-align: center;
         margin-top: -5rem;
     }
     .navigation a:hover {
@@ -50,7 +51,7 @@
         display: flex;
         justify-content: center;
         column-gap: 4px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .social a {
         display: flex;
@@ -69,7 +70,7 @@
         font-size: 15px;
     }
     footer p {
-        font-size: 18px;
+        font-size: 15px;
     }
     .hero-container {
         margin: 0.1rem;
@@ -81,7 +82,7 @@
     }
     .hero-btn {
         position: absolute;
-        bottom: -4rem;
+        bottom: -6rem;
         left: 20%;
         transform: translate(50%);
         border-radius: 20px;

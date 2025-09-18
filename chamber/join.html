@@ -43,11 +43,16 @@
                     <legend>Applicant Information</legend>
                     <label>First Name* <input type="text" name="fname" id="name" required></label>
                     <label>Last Name* <input type="text" name="lname" id="last" required></label>
-                    <label>Title of Position <input type="text" name="position" id="position"
+                    <label>Organization Title<input type="text" name="position" id="position"
                             placeholder="Minimum of 7 characters "></label>
-                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" id="email"
+                    <label>Email Address* <input type="email" name="email" placeholder="someone@gmail.com" id="email"
                             pattern="[a-zA-Z0-9._%+-]" title="Please enter a valid email address" required></label>
-                    <label>Phone* <input type="tel" name="phone" placeholder="1235551234" id="phone" required></label>
+                    <label>Phone Number* <input type="tel" name="phone" placeholder="12345678" id="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business/Organization</legend>
+                    <label>Business/Organization's Name* <input type="text" name="company" id="organization" required></label>
+                    <label class="f2">Description <textarea id="description" name="description"></textarea></label>
                 </fieldset>
 
                 <fieldset>
@@ -58,14 +63,7 @@
                     <label><input type="radio" name="audience" value="gold-membership">Gold Membership</label>
                 </fieldset>
 
-                <fieldset>
-                    <legend>Business/Organization</legend>
-                    <label>Business/Organization's Name* <input type="text" name="company" id="organization"
-                            required></label>
-                    <label class="f2">Description <textarea id="description" name="description"></textarea></label>
-
-                </fieldset>
-
+                
                 <input type="hidden" name="timeStamp" id="datetime">
                 <button type="submit" id="submit" onclick="testInfo">Send</button>
             </form>
@@ -91,19 +89,19 @@
                         </tr>
                         <tr>
                             <td>BRONZE</td>
-                            <td>$50</td>
-                            <td>• Annual training<br>• Advertising on social networks<br>• 10% discount on tickets to events
+                            <td>$100</td>
+                            <td>• Annual training<br>• Advertising on social networks<br>• 5% discount on tickets to events
                             </td>
                         </tr>
                         <tr>
                             <td>SILVER</td>
-                            <td>$100</td>
-                            <td>• Semi-annual training<br>• Advertising on social networks<br>• 15% discount on tickets to
+                            <td>$200</td>
+                            <td>• Semi-annual training<br>• Advertising on social networks<br>• 10% discount on tickets to
                                 events</td>
                         </tr>
                         <tr>
                             <td>GOLD</td>
-                            <td>$175</td>
+                            <td>$300</td>
                             <td>• Quarterly training<br>• Advertising on social networks and chamber of commerce events<br>•
                                 20% discount on tickets to events</td>
                         </tr>

@@ -20,7 +20,7 @@ header span {
 }
 .hamburger {
     background: none;
-    margin-left: 18rem;
+    margin-left: 28rem;
     border: none;
     color: #0948b1;
     cursor: pointer;
@@ -65,13 +65,11 @@ header span {
     text-align: left;
     height: calc(100vh - 120px);
     padding: 0.5rem;
-    background-image: linear-gradient(to bottom,
-                rgba(2, 5, 53, 0.56),
-                rgba(159, 159, 159, 0.4)), url("../images/hero.webp");
+    background-image: url("../images/hero.webp");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: #fff;
 }
 .hero-container {
     margin: 0.1rem;
@@ -79,25 +77,24 @@ header span {
 }
 .hero h1{
     font-size: 3rem;
-    margin-top: -110px;
+    margin: 0;
     letter-spacing: 2px;
     text-align: left;
     padding-left: 1rem;
 }
 .hero h2 {
     font-size: 2.5rem;
-
+    margin: 10px 0;
     font-weight: 300;
     text-align: left;
     color: #0097a7;
     padding-left: 1rem;
-    margin-top: -40px;
 }
 
 .hero p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-shadow: 0 3px 6px rgba(255, 249, 249, 0.17);
-    margin-top: 20px;
+    margin-top: 0.1rem;
     padding-left: 1rem;
 }
 
@@ -109,7 +106,7 @@ header span {
     font-weight: bold;
     cursor: pointer;
     position: absolute;
-    bottom: -1rem;
+    bottom: -4rem;
     left: 2%;
     transform: translate(50%);
     border-radius: 20px;
@@ -126,13 +123,13 @@ footer {
 footer p {
     text-align: center;
     color: #ffffff;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 .social {
     display: flex;
     justify-content: center;
     column-gap: 4px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .social a {
     display: flex;
@@ -152,22 +149,24 @@ footer p {
 }
 .info-text {
     display: block;
-    padding-top: 9%;
+    padding-top: 10%;
     text-align: center;
 }
-
+footer p {
+    font-size: 8px;
+}
 .aboutUs {
     display: block;
-    gap: 5px;
+    gap: 15px;
     margin: 0.9px;
-    padding: 25px;
+    padding: 5px;
     background-color: #f49d0f;
 }
 .company {
     flex: 1 1 30%;
     text-align: center;
     background-color: white;
-    margin: 15px;
+    margin: 5px;
     padding: 1rem;
     border-radius: 20px;
     box-shadow: 0 2px 6px rgba(25, 24, 24, 0.1);
