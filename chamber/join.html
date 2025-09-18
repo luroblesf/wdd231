@@ -39,36 +39,33 @@
         <h1>Join Us</h1>
     <div class="form-mode">
         <div>
-        <form method="get" action="thankyou.html" class="f1" id="form">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label>First Name* <input type="text" name="fname" id="name" required></label>
-                <label>Last Name* <input type="text" name="lname" id="last" required></label>
-                <label>Organization Title <input type="text" name="position" id="position"
-                        placeholder="Minimum of 7 characters"></label>
-                <label>Email Address* <input type="email" name="email" id="email" required></label>
-                <label>Phone Number* <input type="tel" name="phone" id="phone" required></label>
-            </fieldset>
-        
-            <fieldset>
-                <legend>Business/Organization</legend>
-                <label>Business Name* <input type="text" name="company" id="organization" required></label>
-                <label>Description <textarea id="description" name="description"></textarea></label>
-            </fieldset>
-        
-            <fieldset>
-                <legend>Membership Levels</legend>
-                <label><input type="radio" name="audience" value="no-membership">NP Membership</label>
-                <label><input type="radio" name="audience" value="bronze-membership">Bronze Membership</label>
-                <label><input type="radio" name="audience" value="silver-membership">Silver Membership</label>
-                <label><input type="radio" name="audience" value="gold-membership">Gold Membership</label>
-            </fieldset>
-        
-            <input type="hidden" name="timeStamp" id="datetime">
-            <button type="submit" id="submit">Send</button>
-            <p id="output"></p>
-        </form>
+            <form method="get" action="thankyou.html" class="f1" id="form">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name* <input type="text" name="fname" id="name" required></label>
+                    <label>Last Name* <input type="text" name="lname" id="last" required></label>
+                    <label>Organization Title<input type="text" name="position" id="position"
+                            placeholder="Minimum of 7 characters "></label>
+                    <label>Email Address* <input type="email" name="email" placeholder="someone@gmail.com" id="email"
+                            pattern="[a-zA-Z0-9._%+-]" title="Please enter a valid email address" required></label>
+                    <label>Phone Number* <input type="tel" name="phone" placeholder="12345678" id="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business/Organization</legend>
+                    <label>Business/Organization's Name* <input type="text" name="company" id="organization" required></label>
+                    <label class="f2">Description <textarea id="description" name="description"></textarea></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Levels</legend>
+                    <label><input type="radio" name="audience" value="no-membership">NP Membership</label>
+                    <label><input type="radio" name="audience" value="bronze-membership">Bronze Membership</label>
+                    <label><input type="radio" name="audience" value="silver-membership">Silver Membership</label>
+                    <label><input type="radio" name="audience" value="gold-membership">Gold Membership</label>
+                </fieldset>
+            </form>
         </div>
+
         <div>
             <div>
                 <table>
@@ -81,18 +78,22 @@
                         <tr>
                             <td>NP MEMBERSHIP LEVEL</td>
                             <td><button id="openButton1">Learn More</button></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>BRONZE LEVEL</td>
                             <td><button id="openButton2">Learn More</button></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>SILVER LEVEL</td>
                             <td><button id="openButton3">Learn More</button></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>GOLD LEVEL</td>
                             <td><button id="openButton4">Learn More</button></td>                          
                         </tr>
                     </tbody>
                 </table>
+       
             </div>
         </div>
     </div>
