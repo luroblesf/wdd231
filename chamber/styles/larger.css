@@ -191,7 +191,7 @@
         font-size: 1rem;
         border: solid 1px var(--input-border-color);
         border-radius: 4px;
-        padding: 3.75rem;
+        width: 185px;
         color: rgb(36, 7, 80);
         }
     table {
@@ -199,6 +199,17 @@
         border: 0.3px solid rgb(36, 7, 80);
         border-collapse: collapse;
         background-color: white;
+        opacity: 0;
+        filter: blur(4px);
+        transform: translateY(20px);
+        animation: fadeInTable 1.5s ease-out forwards;
+    }
+    @keyframes fadeInTable {
+        to {
+            opacity: 1;
+            filter: blur(0);
+            transform: translateY(0);
+        }
     }
     tr:first-child th,
     .highlight {
@@ -236,7 +247,7 @@
         color: rgb(36, 7, 80);
         font-size: 20px;
     }
-    
+
     ::backdrop {
         background-color: rgba(36, 9, 110, 0.682);
     }
@@ -248,8 +259,15 @@
         padding: 0.2rem 0.3rem;
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
+
     #closeButton {
         font-size: 10px;
+    }
+    .thank-you {
+        color: rgb(36, 7, 80);
+        margin: 5px 200px;
+    }
+    .thank-you p {
+        font-size: 2rem;
     }
 }

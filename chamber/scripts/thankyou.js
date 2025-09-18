@@ -1,21 +1,25 @@
 const form = document.querySelector("#form");
-const input = document.querySelector("#position");
-const output = document.querySelector("#submit");
+const positionInput = document.querySelector("#position");
+const timestampInput = document.querySelector("#datetime");
+const output = document.querySelector("#output");
+const submitButton = document.querySelector("#submit");
 
 const re = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s\-]{7,}$/;
 
-function testInfo(positionInput) {
-    const ok = re.exec(positionInput.value);
-
-    output.innerHTML = ok
-        ? `Correct`(location.href = "thankyou.html")
-
-        : `Title of position invalid`;
-}
-
-form.addEventListener("submit", (event) => {
+submitButton.addEventListener("click", (event) => {
     event.preventDefault();
-    testInfo(input);
+
+    const isValid = re.test(positionInput.value);
+
+    if (isValid) {
+        const now = new Date();
+        timestampInput.value = now.toLocaleString();
+
+        form.submit();
+    } else {
+        output.textContent = "❌ Organization Title must be at least 7 characters.";
+        output.style.color = "red";
+    }
 });
 
 

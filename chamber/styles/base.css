@@ -3,7 +3,7 @@
 }
 header {
     display: grid;
-    grid-template-columns: 24px auto 44px;
+    grid-template-columns: 24px auto 24px;
     padding: 5px 0 5px 8px;
     align-items: center;
     border-bottom: solid 1px rgb(188, 188, 188);
@@ -460,10 +460,10 @@ footer p {
     display: block;
     border: solid 1px rgb(36, 7, 80);
     border-radius: 6px;
-    padding: .75rem;
+    padding: 0.35rem;
     color:rgb(36, 7, 80);;
     font-size: small;
-    width: 90%;
+    width: 93%;
     max-width: 320px;
     appearance: none;
 }
@@ -487,7 +487,7 @@ footer p {
     border-left: solid 7px orange;
 }
 .f1 input:required:valid {
-    border-left: solid 7px rgb(14, 29, 83);
+    border-left: solid 7px rgb(36, 7, 80);
 }
 .form-mode label.f2 textarea {
     background-color: rgb(255, 255, 255);
@@ -495,9 +495,9 @@ footer p {
     font-size: 1rem;
     border: solid 1px var(--input-border-color);
     border-radius: 4px;
-    padding: 3.75rem;
+    padding: 1rem;
     color: rgb(36, 7, 80);
-    width: 178px;
+    width: 260px;
 }
 /* TABLE */
 :root {
@@ -516,7 +516,20 @@ table {
     border: 0.3px solid rgb(36, 7, 80);
     border-collapse: collapse;
     background-color: white;
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(20px);
+    animation: fadeInTable 1.5s ease-out forwards;
 }
+        
+@keyframes fadeInTable {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
 tr:first-child th,
 .highlight {
     background-color: rgb(36, 7, 80);
