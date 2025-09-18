@@ -143,7 +143,7 @@ footer p {
     font-family: dosis, sans-serif;
 }
 
-/*DIRECTORY STYLES*/
+/*DIRECTORY*/
 
 #cards section>h2 {
     margin: 0.1rem;
@@ -420,19 +420,16 @@ footer p {
 }
 
 /*JOIN*/
-
 .form-mode {
     display: grid;
     margin: 1px auto;
 }
-
 .f1 fieldset {
     margin: 2rem 50px;
     border: 1px solid rgb(36, 7, 80);
     border-radius: 6px;
     padding: 0.5rem 2% 2%;
 }
-
 .f1 legend {
     background-color: rgb(36, 7, 80);
     color: white;
@@ -440,20 +437,17 @@ footer p {
     font-style: italic;
     font-family: dosis, sans-serif;
 }
-
 .f1 label {
     display: block;
     padding-top: 1rem;
     color: rgb(36, 7, 80);
     font-size: 1.2rem;
 }
-
 .f1 div {
     padding-top: 1rem;
     color: rgb(36, 7, 80);
     font-size: 1.2rem;
 }
-
 .f1 input[type="text"],
 .f1 input[type="tel"],
 .f1 input[type="email"],
@@ -473,12 +467,10 @@ footer p {
     max-width: 320px;
     appearance: none;
 }
-
 .f1 input[type="radio"],
 .f1 input[type="checkbox"] {
     margin-right: 6px;
 }
-
 .f1 button[type="submit"] {
     border: none;
     background: rgb(36, 7, 80);
@@ -505,15 +497,13 @@ footer p {
     border-radius: 4px;
     padding: 3.75rem;
     color: rgb(36, 7, 80);
-    width: 200px;
+    width: 178px;
 }
-
-
-/* table */
+/* TABLE */
 :root {
     --font-color: rgb(36, 7, 80);
     --input-border-color: rgb(36, 7, 80);
-    --invalid-color: rgb(36, 7, 80);;
+    --invalid-color: rgb(36, 7, 80);
     --valid-color: orange;
 }
 body {
@@ -522,50 +512,64 @@ body {
     display: grid;
 }
 table {
-    margin: 50px 15% auto;
-    border: 0.3px solid var(--invalid-color);
+    margin: 30px 15% 50px 25%;
+    border: 0.3px solid rgb(36, 7, 80);
     border-collapse: collapse;
     background-color: white;
 }
 tr:first-child th,
 .highlight {
-    background-color: var(--invalid-color);
+    background-color: rgb(36, 7, 80);
     color: white;
 }
 th,
 td {
-    padding: 20px 20px;
+    padding: 15px 8px;
     color: black;
-}
-
-th:first-child,
-.highlight {
-    background-color: var(--back);
-    color: var(--forelight);
-}
-
+}|
 th {
     background-color: var(--back2);
     color: var(--font-color);
     font-size: larger;
 }
-
 td {
     text-align: center;
     font-size: larger;
 }
-
 tbody tr:nth-child(odd) {
     background-color: var(--zebra);
 }
-
 table tr:nth-child(even) {
     background-color: #d6d6d6;
 }
-
-.img3 img {
-    width: 20%;
-    height: auto;
+.thank-you {
+    color: rgb(36, 7, 80);
+    text-align: center;
+    margin: 50px;
+}
+dialog {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 60%;
+    max-width: 900px;
+    color: rgb(36, 7, 80);
+    font-size: 20px;
+}
+::backdrop {
+    background-color: rgba(36, 9, 110, 0.682);
+}
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 0.2rem 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+#closeButton {
+    font-size: 10px;
 }
 
 

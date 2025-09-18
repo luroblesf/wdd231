@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/thankyou.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li class="current"><a href="join.html">Join</a></li>
@@ -71,46 +72,40 @@
         </div>
 
         <div>
-            <div class="list">
-                <table class="two">
+            <div>
+                <table>
                     <thead>
                         <tr>
-                            <th>Membership Levels</th>
-                            <th>Cost</th>
-                            <th>Benefit</th>
+                            <th colspan="4">Membership Levels</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>NP MEMBERSHIP</td>
-                            <td>No fee</td>
-                            <td>• Annual training<br>• Advertising on social networks<br>• 10% discount on tickets to events
-                            </td>
+                            <td><button id="openButton1">More Information</button></td>
                         </tr>
                         <tr>
                             <td>BRONZE</td>
-                            <td>$100</td>
-                            <td>• Annual training<br>• Advertising on social networks<br>• 5% discount on tickets to events
-                            </td>
+                            <td><button id="openButton2">More Information</button></td>
                         </tr>
                         <tr>
                             <td>SILVER</td>
-                            <td>$200</td>
-                            <td>• Semi-annual training<br>• Advertising on social networks<br>• 10% discount on tickets to
-                                events</td>
+                            <td><button id="openButton3">More Information</button></td>
                         </tr>
                         <tr>
                             <td>GOLD</td>
-                            <td>$300</td>
-                            <td>• Quarterly training<br>• Advertising on social networks and chamber of commerce events<br>•
-                                20% discount on tickets to events</td>
+                            <td><button id="openButton4">More Information</button></td>                          
                         </tr>
                     </tbody>
                 </table>
+       
             </div>
         </div>
     </div>
-
+        <dialog id="dialogBox">
+                <div></div>
+            <button id="closeButton">❌</button>
+        </dialog>
     </main>
 
     <footer>

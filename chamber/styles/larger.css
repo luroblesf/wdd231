@@ -180,4 +180,76 @@
     .weather-icon {
         width: 50px;
     }
+    .form-mode {
+        display: flex;
+        margin: 1px auto;
+        gap: 2px;
+    }
+    .form-mode label.f2 textarea {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        font-size: 1rem;
+        border: solid 1px var(--input-border-color);
+        border-radius: 4px;
+        padding: 3.75rem;
+        color: rgb(36, 7, 80);
+        }
+    table {
+        margin: 30px 10% auto;
+        border: 0.3px solid rgb(36, 7, 80);
+        border-collapse: collapse;
+        background-color: white;
+    }
+    tr:first-child th,
+    .highlight {
+        background-color: rgb(36, 7, 80);
+        color: white;
+    }
+    th,td {
+        padding: 20px 20px;
+        color:rgb(36, 7, 80);
+    }
+    th {
+        background-color:rgb(36, 7, 80);
+        color: white;
+        font-size: larger;
+        text-align: center;
+    }
+    td {
+        text-align: center;
+        font-size: larger;
+    }
+    tbody tr:nth-child(odd) {
+        background-color: var(--zebra);
+    }
+    table tr:nth-child(even) {
+        background-color: #d0d0d0;
+    }
+    dialog {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.25rem;
+        padding: 1rem;
+        background-color: #fff;
+        box-shadow: 0 0 3rem #777;
+        width: 60%;
+        max-width: 300px;
+        color: rgb(36, 7, 80);
+        font-size: 20px;
+    }
+    
+    ::backdrop {
+        background-color: rgba(36, 9, 110, 0.682);
+    }
+    
+    dialog button {
+        position: absolute;
+        top: 23px;
+        right: 23px;
+        padding: 0.2rem 0.3rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    #closeButton {
+        font-size: 10px;
+    }
 }
