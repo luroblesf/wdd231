@@ -493,7 +493,7 @@ footer p {
     background-color: rgb(255, 255, 255);
     display: flex;
     font-size: 1rem;
-    border: solid 1px var(--input-border-color);
+    border: solid 1px rgb(36, 7, 80);
     border-radius: 4px;
     padding: 1rem;
     color: rgb(36, 7, 80);
@@ -539,7 +539,7 @@ th,
 td {
     padding: 15px 8px;
     color: black;
-}|
+}
 th {
     background-color: var(--back2);
     color: var(--font-color);
@@ -553,7 +553,7 @@ tbody tr:nth-child(odd) {
     background-color: var(--zebra);
 }
 table tr:nth-child(even) {
-    background-color: #d6d6d6;
+    background-color: #bcbcbc;
 }
 .thank-you {
     color: rgb(36, 7, 80);

@@ -231,10 +231,10 @@
         font-size: larger;
     }
     tbody tr:nth-child(odd) {
-        background-color: var(--zebra);
+        background-color: #ffffff
     }
-    table tr:nth-child(even) {
-        background-color: #d0d0d0;
+     table tr:nth-child(even) {
+        background-color: #bcbcbc;
     }
     dialog {
         border: 1px solid rgba(0, 0, 0, 0.1);
