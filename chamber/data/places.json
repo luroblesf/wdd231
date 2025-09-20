@@ -1,0 +1,52 @@
+{
+    "places": [
+        {
+            "name": "Royal Street of the Arch",
+            "address": "Antigua Guatemala, Sacatepequez",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/antigua.webp"
+        },
+        {
+            "name": "San Felipe Castle",
+            "address": "Rio Dulce, Izabal",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/castillo-dos.webp"
+        },
+        {
+            "name": "Atitlan Lake",
+            "address": "Panajachel, Solola",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/pana.webp"
+        },
+        {
+            "name": "Central Park",
+            "address": "Quetzaltenango, Guatemala",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/xela.webp"
+        },
+        {
+            "name": "Monterrico Beach",
+            "address": "Taxisco, Santa Rosa",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/monterrico.webp"
+        },
+        {
+            "name": "Juan Diéguez Olaverri Viewpoint",
+            "address": "Todo Santos Cuchumatanes, Huehuetenango",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/cuchumatanes.webp"
+        },
+        {
+            "name": "Semuc Champey",
+            "address": "Coban, Alta Verapaz",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/semuc.webp"
+        },
+        {
+            "name": "Tikal Park",
+            "address": "Tikal, Peten",
+            "description": "(502) 2381-2381",
+            "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/peten.webp"
+        }
+    ]
+}
