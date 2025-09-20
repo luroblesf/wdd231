@@ -1,15 +1,17 @@
 @media only screen and (min-width: 38rem) {
+
     header,
     main,
     nav,
     footer {
-        max-width: 600px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
     header {
         grid-template-columns: 24px auto;
         border-bottom: none;
+        margin: 2px 300px;
     }
 
     header img {
@@ -34,7 +36,7 @@
         display: flex;
         gap: 5px;
         list-style: none;
-        padding-left: 37rem;
+        padding-left: 30rem;
     }
 
     .navigation li {
