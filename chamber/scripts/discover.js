@@ -45,13 +45,69 @@ async function displayPlaces() {
             container.classList.add('activity');
 
             container.innerHTML = `
-                <img src='images/${item.imageurl}' alt='Image of ${item.name}'>
                 <h2>${item.name}</h2>
+                <img src='${item.imageurl}' alt='Image of ${item.name}'>
                 <p>${item.address}</p>
                 <p>${item.description}</p>
-                <button type='submit'>Learn More</button>
+                <button class='infoBtn' data-name='${encodeURIComponent(item.name)}' data-details='${encodeURIComponent(item.details)}' data-image='${encodeURIComponent(item.imageurl)}'>Learn More</button>
             `;
             dataElement.appendChild(container);
+        });
+
+        const modal = document.getElementById('placeModal');
+        const modalImage = modal.querySelector('.modal-image');
+        const modalTitle = modal.querySelector('#modalTitle');
+        const modalAddress = modal.querySelector('.modal-address');
+        const modalDescription = modal.querySelector('.modal-details');
+        const modalClose = modal.querySelector('#closeButton');
+
+        function openModal(data) {
+            modalImage.src = data.image;
+            modalImage.alt = `Image of ${data.name}`;
+            modalTitle.textContent = data.name;
+            modalAddress.textContent = data.address;
+            modalDescription.textContent = data.details;
+            if (typeof modal.showModal === 'function') {
+                modal.showModal();
+            } else {
+                modal.setAttribute('open', '');
+            }
+        }
+
+        function closeModal() {
+            if (typeof modal.close === 'function') {
+                modal.close();
+            } else {
+                modal.removeAttribute('open');
+            }
+        }
+        document.querySelectorAll('.infoBtn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const data = {
+                    name: decodeURIComponent(btn.dataset.name),
+                    address: decodeURIComponent(btn.dataset.address),
+                    description: decodeURIComponent(btn.dataset.description),
+                    image: decodeURIComponent(btn.dataset.image),
+                };
+                openModal(data);
+            });
+        });
+
+
+        modalClose.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            const rect = modal.getBoundingClientRect();
+            const isInDialog = (
+                e.clientX >= rect.left && e.clientX <= rect.right &&
+                e.clientY >= rect.top && e.clientY <= rect.bottom
+            );
+            if (!isInDialog) {
+                closeModal();
+            }
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
         });
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -59,6 +115,8 @@ async function displayPlaces() {
 }
 
 displayPlaces();
+
+
 
 
 
