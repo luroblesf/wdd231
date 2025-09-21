@@ -4,49 +4,56 @@
             "name": "Royal Street of the Arch",
             "address": "Antigua Guatemala, Sacatepequez",
             "description": "A UNESCO World Heritage city known for its colonial architecture, cobblestone streets, and vibrant culture. Surrounded by volcanoes, Antigua offers a blend of history, art, and natural beauty, making it a favorite destination for travelers.",
-            "details":"• Historic charm: Home to centuries-old churches, convents, and ruins, including the iconic Santa Catalina Arch. • Cultural richness: A hub for traditional crafts, vibrant markets, and festivals like Semana Santa. • Modern appeal: Popular with travelers for its boutique hotels, coffee shops, and Spanish language schools.",
+            "details":"• Historic charm: Home to centuries-old churches, convents, and ruins, including the iconic Santa Catalina Arch.<br><br>• Cultural richness: A hub for traditional crafts, vibrant markets, and festivals like Semana Santa.<br><br>• Modern appeal: Popular with travelers for its boutique hotels, coffee shops, and Spanish language schools.",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/antigua.webp"
         },
         {
             "name": "San Felipe Castle",
             "address": "Rio Dulce, Izabal",
             "description": "A 17th-century Spanish colonial fortress built to guard the entrance to Lake Izabal from pirate attacks. Surrounded by lush jungle and river views, San Felipe Castle offers a glimpse into Guatemala’s maritime history and stunning architecture with stone walls, watchtowers, and scenic walkways.",
+            "details": "• Castillo de San Felipe: A historic Spanish colonial fortress guarding the river mouth.<br><br>•Boating paradise: Popular for kayaking, sailing, and scenic boat rides through mangroves and limestone canyons.<br><br>•Gateway to Livingston: The river leads to the Afro-Caribbean town of Livingston, accessible only by boat.<br><br>•Biodiversity: Home to manatees, toucans, howler monkeys, and tropical flora",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/castillo-dos.webp"
         },
         {
             "name": "Atitlan Lake",
             "address": "Panajachel, Solola",
             "description": "A breathtaking volcanic lake surrounded by lush mountains and traditional Mayan villages. Known for its deep blue waters and scenic beauty, Lake Atitlán is a hub for culture, adventure, and relaxation—perfect for kayaking, hiking, and exploring artisan markets.",
+            "details":"• Crystal-clear waters: Ideal for kayaking, swimming, and boat tours.<br><br>• Cultural richness: Ringed by indigenous Maya villages like Panajachel, San Juan, and Santiago, each with its own traditions, textiles, and art.<br<br>• Volcano hikes: Adventurers can trek up San Pedro Volcano for panoramic views.<br><br>• Spiritual and creative vibe: Popular with artists, yogis, and travelers seeking tranquility.",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/pana.webp"
         },
         {
             "name": "Quetzaltenango City",
             "address": "Quetzaltenango, Guatemala",
             "description": "A vibrant highland city rich in culture, history, and education. Known as Xela by locals, Quetzaltenango blends colonial architecture with indigenous heritage. It's a hub for language schools, artisan markets, and volcano treks, offering visitors a unique mix of tradition and adventure.",
+            "details": "• Rich heritage: A blend of Maya traditions and colonial architecture, with strong K’iche’ roots.<br><br>• Cool climate: Surrounded by volcanoes like Santa María and Cerro Quemado, offering stunning views and hiking opportunities.<br><br>• Student city: Known for Spanish schools, universities, and a lively youth scene.<br><br>• Local life: Bustling markets, traditional textiles, and authentic Guatemalan cuisine.",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/xela.webp"
         },
         {
             "name": "Monterrico Beach",
             "address": "Taxisco, Santa Rosa",
             "description": "A laid-back Pacific coastal town known for its volcanic black sand beaches, sea turtle conservation, and stunning sunsets. Monterrico is a favorite getaway for nature lovers and beachgoers, offering boat tours through mangrove canals and a relaxed tropical vibe.",
+            "details": "• Sea turtle conservation: Visit hatcheries where baby turtles are released into the sea.<br><br>• Mangrove tours: Explore the nearby mangrove canals by boat, especially beautiful at sunrise.<br><br>• Surf and chill: Great for surfing, sunbathing, and enjoying fresh seafood by the shore.<br><br>• Rustic charm: Small hotels, hammocks, and a relaxed vibe—perfect for disconnecting",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/monterrico.webp"
         },
         {
             "name": "Cuchumatanes Viewpoint",
             "address": "Huehuetenango, Guatemala",
             "description": "Located in the highest non-volcanic mountain range of Central America, the Cuchumatanes Viewpoint offers sweeping views of rugged peaks, alpine meadows, and traditional sheep pastures. At over 3,000 meters above sea level, it’s a serene escape where visitors can experience crisp mountain air, local Mam culture, and breathtaking sunrises above the clouds.",
+            "details": "• Sweeping views: Overlooking deep valleys, pine forests, and distant peaks, often with dramatic cloudscapes.<br><br>• Unique landscape: A mix of alpine meadows, rocky outcrops, and traditional sheep pastures.<br><br>• Cultural richness: Home to indigenous Mam and Q’anjob’al communities, with vibrant textiles and traditions.<br><br>• Cool climate: Crisp mountain air and chilly nights make it a refreshing escape.",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/cuchumatanes.webp"
         },
         {
             "name": "Semuc Champey",
             "address": "Lanquín, Alta Verapaz",
             "description": "A natural paradise hidden in the lush jungles of Alta Verapaz, Semuc Champey features a series of turquoise limestone pools atop a limestone bridge under which the Cahabón River flows. It's a breathtaking destination for swimming, hiking, and exploring caves, offering one of Guatemala’s most iconic and serene landscapes.",
+            "details": "• Tiered pools: Perfect for swimming, relaxing, and soaking in the scenery.<br><br>• El Mirador hike: A steep but rewarding trail to a viewpoint overlooking the entire formation.<br><br>• Underground river: The Cahabón River flows beneath the pools, creating a unique natural phenomenon.<br><br>• Nearby caves and tubing: Adventurous options include cave exploration and river tubing.",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/semuc.webp"
         },
         {
             "name": "Tikal National Park",
             "address": "Peten, Guatemala",
             "description": "One of the most iconic archaeological sites of the ancient Maya civilization, Tikal National Park is home to towering pyramids, sprawling plazas, and dense jungle teeming with wildlife. A UNESCO World Heritage Site, Tikal offers a powerful blend of history and nature, where visitors can climb Temple IV for panoramic views and listen to howler monkeys echo through the rainforest.",
+            "details": "• Towering temples: Temple I (Temple of the Great Jaguar) and Temple IV rise above the jungle canopy.<br><br>• Wildlife-rich setting: Howler monkeys, toucans, and coatis roam freely among the ruins.<br><br>• UNESCO World Heritage Site: Recognized for both its cultural and natural significance.<br><br>•  Astronomical precision: Structures aligned with celestial events, reflecting Maya mastery of time and space.<br><br>• It’s a place where history, mystery, and nature collide—perfect for sunrise hikes, archaeology lovers, and anyone drawn to ancient civilizations. Let me know if you’d like tips for visiting from Xela or combining it with Flores!",
             "imageurl": "https://luroblesf.github.io/wdd231/chamber/images/peten.webp"
         }
     ]

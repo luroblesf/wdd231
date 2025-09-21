@@ -585,40 +585,63 @@ dialog button {
     font-size: 10px;
 }
 
-/*DISCOVERY*/
+/*DISCOVERY MODAL*/
+
+#placeModal{
+    font-size: 15px;
+}
+#placeModal button {
+    margin-top: 0.px;
+}
+#placeModal p{
+    margin-top: 40px;
+    padding: 0.5px;
+    text-align: left;
+}
+
+/* DISPLAY DISCOVERY */
+
 .discover-info div {
     margin: 1rem 8px;
     border: 2.5px solid orange;
     background-color: #bcbcbc;
     border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "imageurl"
+    "description"
+    "address";
 }
 
 .discover-info div h2 {
-    margin:  1rem 10px;
-    text-align: center;
+    margin: 1rem 10px;
+    grid-area: name;
+    font-size: 25px;
 }
 
 .discover-info div img {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 0.5rem #777;
-    border-bottom: orange;
+    grid-area: imageurl;
 }
 
 .discover-info div p {
     margin: 1rem 10px;
-    color: rgb(36, 7, 80);
-    font-family: dosis, sans-serif;
+    grid-area: description;
+    font-size: 17px;
+    text-align: justify;
 }
-
-.discover-info div address {
+.discover-info div h3 {
     margin: 1rem 10px;
-    font-family: dosis, sans-serif;
+    grid-area: address;
+    font-size: 15px;
+    font-style: italic;
+    
 }
-
 .discover-info div button {
-    margin: 1rem 10px 1rem 110px;
-    font-family: dosis, sans-serif;
     background-color: rgb(36, 7, 80);
     color: white;
+    margin: 5px;
 }

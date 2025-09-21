@@ -1,3 +1,17 @@
-@media only screen and (min-width 38rem) {
+@media only screen and (min-width: 38rem) {
+    .discover-info div {
+            display: grid;
+            grid-template-areas:
+                "imageurl name"
+                "imageurl description"
+                "imageurl address"
+        }
     
+        .discover-info div h3 {
+            margin: 1rem 10px;
+            grid-area: address;
+            font-size: 15px;
+            font-style: italic;
+            color: rgb(36, 7, 80);
+        }
 }
