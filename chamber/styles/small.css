@@ -560,6 +560,25 @@ table tr:nth-child(even) {
     text-align: center;
     margin: 50px;
 }
+.thank-you h2 {
+    color: rgb(36, 7, 80);
+    text-align: center;
+    font-size: 30px;
+}
+
+.thank-you h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    padding-left: 100px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(36, 7, 80);
+}
+
+.thank-you span {
+    font-size: 1rem;
+    color: #000000;
+}
 dialog {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.25rem;

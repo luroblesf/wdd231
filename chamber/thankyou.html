@@ -16,9 +16,10 @@
     <meta property="og:image" content="https://luroblesf.github.io/wdd231/chamber/">
     <meta property="og:url" content="https://luroblesf.github.io/wdd231/chamber/">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/info.js"></script>
 </head>
 
 <body>
@@ -37,12 +38,20 @@
     </nav>
 
     <main class="thank-you">
-    <div>
-        <p>Thanks for joining us!</p>
-        <p>Your information has been entered successfull</p><br>
-    </div>
+        <h2>Thanks for joining us!<br>
+        Your information has been entered successfull</h2><br>
+            <h3><strong>Name:</strong> <span id="displayName"></span></h3>
+            <h3><strong>Last Name:</strong> <span id="displayLast"></span></h3>
+            <h3><strong>Organizational Title:</strong> <span id="displayPosition"></span></h3>
+            <h3><strong>Email Address:</strong> <span id="displayEmail"></span></h3>
+            <h3><strong>Phone Number:</strong> <span id="displayPhone"></span></h3>
+            <h3><strong>Business/Organization's Name:</strong> <span id="displayOrganization"></span></h3>
+            <h3><strong>Menssage:</strong> <span id="displayMessage"></span></h3>
+            <h3><strong>Type of Membership:</strong> <span id="displayMembership"></span></h3>
+            <h3><strong>Timestamp:</strong> <span id="displayTimestamp"></span></h3>
+</body>
 
-</main>
+    </main>
 <footer>
     <div class="info-text">
         <p>Guatemala Chamber of Commerce</p>
