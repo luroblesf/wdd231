@@ -282,6 +282,11 @@
     .discover-info div img {
         width: 220px;
     }
+    .discover-info div h2 {
+        margin: 1rem 10px;
+        color: rgb(36, 7, 80);
+        font-size: 22px;
+    }
     .overlay {
         position: fixed;
         top: 0;
