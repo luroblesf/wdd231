@@ -22,6 +22,45 @@ submitButton.addEventListener("click", (event) => {
     }
 });
 
+function submitForm() {
+    let namec = document.getElementById('fname').value;
+    let email = document.getElementById('email').value;
+    let phone = document.getElementById('phone').value;
+    let message = document.getElementById('message').value;
+    let product = document.getElementById('product').value;
+    let cakeEvent = document.querySelector('input[name="cakeEvent"]:checked').value;
+
+    localStorage.setItem('name', namec);
+    localStorage.setItem('phone', phone);
+    localStorage.setItem('email', email);
+    localStorage.setItem('message', message);
+    localStorage.setItem('product', product);
+    localStorage.setItem('cakeEvent', cakeEvent);
+
+
+    window.location.href = 'thankyou.html';
+}
+
+let namec = localStorage.getItem('name');
+let email = localStorage.getItem('email');
+let phone = localStorage.getItem('phone');
+let cakeEvent = localStorage.getItem('cakeEvent');
+let message = localStorage.getItem('message');
+
+document.getElementById('displayName').textContent = namec;
+document.getElementById('displayPhone').textContent = phone;
+document.getElementById('displayEmail').textContent = email;
+document.getElementById('displayProduct').textContent = products.find(p => p.id === localStorage.getItem('product')).name;
+document.getElementById('displayCakeEvent').textContent = cakeEvent;
+document.getElementById('displayMessage').textContent = message;
+
+
+
+
+
+
+
+
 
 /* TimeStamp */
 
@@ -29,6 +68,9 @@ var now = new Date();
 var datetime = now.toLocaleString();
 
 document.getElementById("datetime").innerHTML = datetime
+
+
+
 
 /*MODALS */
 
@@ -57,3 +99,4 @@ openButton4.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
     dialogBox.close();
 });
+
