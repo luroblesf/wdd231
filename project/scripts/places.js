@@ -35,7 +35,7 @@ const displayPlaces = (places) => {
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '200');
 
-        button.textContent = 'Learn More';
+        button.textContent = 'More Information';
         button.classList.add('infoBtn');
         const combinedDetails = `<strong>Schedule:</strong> ${place.schedule}\n<strong>Services:</strong> ${place.services}`;
         button.setAttribute('data-details', encodeURIComponent(combinedDetails));
@@ -44,8 +44,9 @@ const displayPlaces = (places) => {
         button.addEventListener('click', () => {
             const details = decodeURIComponent(button.dataset.details);
             modal.innerHTML = `
+                <h2>Information</h2>
                 <p>${details.replace(/\n/g, '<br>')}</p>
-                <button id="closeButton">❌</button>
+                <button id="closeButton">X</button>
             `;
             modal.showModal();
             modal.querySelector('#closeButton').addEventListener('click', () => modal.close());
