@@ -3,7 +3,7 @@ const url = 'https://luroblesf.github.io/wdd231/project/data/places.json'
 async function getPlacesData() {
     const response = await fetch(url);
     const data = await response.json();
-    displayProphets(data.places);
+    displayPlaces(data.places);
 }
 
 getPlacesData();
