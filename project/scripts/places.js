@@ -1,5 +1,5 @@
 const cards = document.querySelector('#cards');
-
+const url = 'https://luroblesf.github.io/wdd231/project/data/places.json'
 async function getPlacesData() {
     const response = await fetch(url);
     const data = await response.json();
