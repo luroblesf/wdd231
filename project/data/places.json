@@ -5,105 +5,105 @@
         "address": "Av. Las Américas 3-24 Zone 10",
         "phone": "+502 7765 1234",
         "schedule": "Monday to Saturday, 8:00-20:00",
-        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/locations/1.webp"
+        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/1.webp"
     },
     {
         "name": "Quetzaltenango City",
         "address": "Calle Real 45 Zone 2",
         "phone": "+502 7761 9876",
         "schedule": "Monday to Friday, 9:00-18:00",
-        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/locations/2.webp"
+        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/2.webp"
     },
     {
         "name": "Chiquimula City",
         "address": "6a Calle 10-55 Zone 5",
         "phone": "+502 7762 3344",
         "schedule": "Tuesday to Sunday, 10:00-17:00",
-        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/locations/3.webp"
+        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/3.webp"
     },
     {
         "name": "Peten City",
         "address": "3a Avenida 22-10 Zone 4",
         "phone": "+502 7763 1122",
         "schedule": "Everyday, 6:00-19:00",
-        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/locations/4.webp"
+        "imageurl": "https: //luroblesf.github.io/wdd231/project/images/4.webp"
     },
     {
         "name": "El Progreso City",
         "address": "Boulevard Los Altos, Zone 8",
         "phone": "+502 7764 5566",
         "schedule": "Monday to Saturday, 7:00-21:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/5.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/5.webp"
     },
     {
         "name": "Totonicapan City",
         "address": "In front of The Calvario church, Zone 2",
         "phone": "+502 2400 5978",
         "schedule": "Everyday, 6:00-19:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/6.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/6.webp"
     },
     {
         "name": "Retalhuleu City",
         "address": "5a Calle 8-20 Zone 10",
         "phone": "+502 7765 7788",
         "schedule": "Tuesday to Sunday, 11:00-22:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/7.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/7.webp"
     },
     {
         "name": "San Marcos City",
         "address": "2a Avenue 15-30 Zone 1",
         "phone": "+502 7766 8899",
         "schedule": "Monday to Friday, 7:00-17:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/8.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/8.webp"
     },
     {
         "name": "Alta Verapaz City",
         "address": "4a Street 9-40 Zone 2",
         "phone": "+502 7767 9900",
         "schedule": "Monday to Saturday, 9:00-18:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/9.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/9.webp"
     },
     {
         "name": "Mazatenango City",
         "address": "3rd Street 11-58 Zone 7",
         "phone": "+502 7768 1010",
         "schedule": "Everyday, 10:00-20:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/10.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/10.webp"
     },
     {
         "name": "Chimaltenango City",
         "address": "1a Street 12-15 Zone 1",
         "phone": "+502 7769 2020",
         "schedule": "Monday to Saturday, 9:00-19:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/11.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/11.webp"
     },
     {
         "name": "Escuintla City",
         "address": "6a Avenue 13-45 Zone 9",
         "phone": "+502 7770 3030",
         "schedule": "Monday to Friday, 8:00-16:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/12.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/12.webp"
     },
     {
         "name": "Santa Rosa City",
         "address": "2a Calle 7-60 Zone 2",
         "phone": "+502 7771 4040",
         "schedule": "Monday to Saturday, 6:00-21:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/13.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/13.webp"
     },
     {
         "name": "Jalapa City",
         "address": "Zona 1, 3a Avenida 10-20",
         "phone": "+502 7772 5050",
         "schedule": "Tueday to Sunday, 10:00-18:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/14.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/14.webp"
     },
     {
         "name": "Jutiapa City",
         "address": "Real Street 5-12 Zoen 6",
         "phone": "+502 6689 4100",
         "schedule": "Everyday, 6:00-18:00",
-        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/locations/15.webp"
+        "imageurl":"https: //luroblesf.github.io/wdd231/project/images/15.webp"
         }
     ]
 }

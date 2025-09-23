@@ -18,13 +18,13 @@ const displayPlaces = (places) => {
         let schedule = document.createElement('p');
         let phone = document.createElement('p');
 
-        name.textContent = `${places.name}`;
-        address.textContent = `${ places.address}`;
-        schedule.textContent = `Schedule: ${places.schedule}`;
-        phone.textContent = `Phone Number: ${places.phone}`;
+        name.textContent = `${place.name}`;
+        address.textContent = `${ place.address}`;
+        schedule.textContent = `Schedule: ${place.schedule}`;
+        phone.textContent = `Phone Number: ${place.phone}`;
 
-        portrait.setAttribute('src', places.imageurl);
-        portrait.setAttribute('alt', `Portrait of ${places.name} ${places.schedule} - ${places.phone}`);
+        portrait.setAttribute('src', place.imageurl);
+        portrait.setAttribute('alt', `Portrait of ${place.name}`);
         portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
