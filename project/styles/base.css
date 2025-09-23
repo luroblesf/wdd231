@@ -333,7 +333,7 @@ dialog button {
     border: 1px solid #0000ee;
     color: white;
     padding: 15px;
-    margin: 10px 230px;
+    margin: 10px 150px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .wf input[type="submit"]:hover {

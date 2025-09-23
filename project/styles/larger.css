@@ -126,4 +126,13 @@
         font-size: 1rem;
         color: #0948b1;
     }
+    .wf input[type="submit"] {
+        background-color: #0000ee;
+        border-radius: 5px;
+        border: 1px solid #0000ee;
+        color: white;
+        padding: 15px;
+        margin: 10px 320px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 }
