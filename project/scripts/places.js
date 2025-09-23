@@ -1,5 +1,6 @@
 const cards = document.querySelector('#cards');
 const url = 'https://luroblesf.github.io/wdd231/project/data/places.json'
+
 async function getPlacesData() {
     const response = await fetch(url);
     const data = await response.json();
@@ -17,8 +18,8 @@ const displayPlaces = (places) => {
         let phone = document.createElement('p');
 
         name.textContent = `${places.name}`;
-        schedule.textContent = `Date of Birth: ${places.schedule}`;
-        phone.textContent = `Place of Birth: ${places.phone}`;
+        schedule.textContent = `Schedule: ${places.schedule}`;
+        phone.textContent = `Phone Number: ${places.phone}`;
 
         portrait.setAttribute('src', places.imageurl);
         portrait.setAttribute('alt', `Portrait of ${places.name} ${places.schedule} - ${places.phone}`);
