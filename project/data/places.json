@@ -5,7 +5,7 @@
         "address": "Av. Las Américas 3-24 Zone 10",
         "phone": "+502 7765 1234",
         "schedule": "Monday to Saturday, 8:00-20:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl": "https://luroblesf.github.io/wdd231/project/images/1.webp"
     },
     {
@@ -13,7 +13,7 @@
         "address": "Real Street 4, Zone 2",
         "phone": "+502 7761 9876",
         "schedule": "Monday to Friday, 9:00-18:00 hrs.",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl": "https://luroblesf.github.io/wdd231/project/images/2.webp"
     },
     {
@@ -21,7 +21,7 @@
         "address": "6a Calle 10-55 Zone 5",
         "phone": "+502 7762 3344",
         "schedule": "Tuesday to Sunday, 10:00-17:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes",
+        "services": "<br>• Aquafitness<br>• Swimming Classes",
         "imageurl": "https://luroblesf.github.io/wdd231/project/images/3.webp"
     },
     {
@@ -29,7 +29,7 @@
         "address": "3a Avenida 22-10 Zone 4",
         "phone": "+502 7763 1122",
         "schedule": "Everyday, 6:00-19:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes",
+        "services": "<br>• Aquafitness<br>• Swimming Classes",
         "imageurl": "https://luroblesf.github.io/wdd231/project/images/4.webp"
     },
     {
@@ -37,14 +37,14 @@
         "address": "Boulevard Los Altos, Zone 8",
         "phone": "+502 7764 5566",
         "schedule": "Monday to Saturday, 7:00-21:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/5.webp"
     },
     {
         "name": "Totonicapan City",
         "address": "In front of The Calvario church, Zone 2",
         "phone": "+502 2400 5978",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "schedule": "Everyday, 6:00-19:00 hrs",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/6.webp"
     },
@@ -53,7 +53,7 @@
         "address": "5a Calle 8-20 Zone 10",
         "phone": "+502 7765 7788",
         "schedule": "Tuesday to Sunday, 11:00-22:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes",
+        "services": "<br>• Aquafitness<br>• Swimming Classes",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/7.webp"
     },
     {
@@ -61,7 +61,7 @@
         "address": "2a Avenue 15-30 Zone 1",
         "phone": "+502 7766 8899",
         "schedule": "Monday to Friday, 7:00-17:00 hrs",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/8.webp"
     },
     {
@@ -69,7 +69,7 @@
         "address": "4a Street 9-40 Zone 2",
         "phone": "+502 7767 9900",
         "schedule": "Monday to Saturday, 9:00-18:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/9.webp"
     },
     {
@@ -77,7 +77,7 @@
         "address": "3rd Street 11-58 Zone 7",
         "phone": "+502 7768 1010",
         "schedule": "Everyday, 10:00-20:00 hrs",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/10.webp"
     },
     {
@@ -85,7 +85,7 @@
         "address": "1a Street 12-15 Zone 1",
         "phone": "+502 7769 2020",
         "schedule": "Monday to Saturday, 9:00-19:00 hrs",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/11.webp"
     },
     {
@@ -93,7 +93,7 @@
         "address": "6a Avenue 13-45 Zone 9",
         "phone": "+502 7770 3030",
         "schedule": "Monday to Friday, 8:00-16:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes",
+        "services": "<br>• Aquafitness<br>• Swimming Classes",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/12.webp"
     },
     {
@@ -101,7 +101,7 @@
         "address": "2a Calle 7-60 Zone 2",
         "phone": "+502 7771 4040",
         "schedule": "Monday to Saturday, 6:00-21:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/13.webp"
     },
     {
@@ -109,7 +109,7 @@
         "address": "3a Avenida 10-20 Zone 1",
         "phone": "+502 7772 5050",
         "schedule": "Tueday to Sunday, 10:00-18:00 hrs",
-        "services": "• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/14.webp"
     },
     {
@@ -117,7 +117,7 @@
         "address": "Real Street 5-12 Zone 6",
         "phone": "+502 6689 4100",
         "schedule": "Everyday, 6:00-18:00 hrs",
-        "services": "• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
+        "services": "<br>• Aquafitness<br>• Swimming Classes<br>• Freestyle Swimming",
         "imageurl":"https://luroblesf.github.io/wdd231/project/images/15.webp"
         }
     ]

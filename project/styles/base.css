@@ -219,5 +219,19 @@ section>p {
     margin: 3px;
     color:#0948b1;
 }
+#placeModal {
+    font-size: 15px;
+    border: 3px solid #0581b0;
+}
+#placeModal button {
+    margin-top: 0.5px;
+}
+
+#placeModal p {
+    margin-top: 4px;
+    padding: 1px;
+    text-align: left;
+    color: #0948B1;
+}
 
 
