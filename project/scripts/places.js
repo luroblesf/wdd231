@@ -1,5 +1,5 @@
+const url = 'https://luroblesf.github.io/wdd231/project/data/places.json';
 const cards = document.querySelector('#cards');
-const url = 'https://luroblesf.github.io/wdd231/project/data/places.json'
 
 async function getPlacesData() {
     const response = await fetch(url);
@@ -14,10 +14,12 @@ const displayPlaces = (places) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let portrait = document.createElement('img');
+        let address = document.createElement('p');
         let schedule = document.createElement('p');
         let phone = document.createElement('p');
 
         name.textContent = `${places.name}`;
+        address.textContent = `${ places.address}`;
         schedule.textContent = `Schedule: ${places.schedule}`;
         phone.textContent = `Phone Number: ${places.phone}`;
 
@@ -28,6 +30,7 @@ const displayPlaces = (places) => {
         portrait.setAttribute('height', '440');
 
         card.appendChild(name);
+        card.appendChild(address);
         card.appendChild(schedule);
         card.appendChild(phone);
         card.appendChild(portrait);
