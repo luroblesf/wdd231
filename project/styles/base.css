@@ -175,8 +175,20 @@ footer p {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.27);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.27); 
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(20px);
+    animation: fadeInTable 1.5s ease-out forwards;
 }
+@keyframes fadeInTable {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
 h1 {
     color: #0948b1;
     text-align: center;
@@ -210,6 +222,17 @@ section img {
     margin: 20px;
     width: 85%;
     height: 80%;
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(20px);
+    animation: fadeInTable 1.5s ease-out forwards;
+}   
+@keyframes fadeInTable {
+    to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
 }
 section>h2 {
     margin: 5px;
@@ -268,5 +291,79 @@ dialog button {
     transform: translateY(-10px) scale(1.07);
     box-shadow: 0 10px 20px #b6b6b6;
 }
-
+.wf fieldset {
+    margin: 2rem auto;
+    padding: .5rem 2%;
+    max-width: 385px;
+    border: 3px solid #0581b0;
+    border-radius: 12px;
+    align-items: left;
+    background-color: white;
+}
+.wf input[type="text"],input[type="tel"],input[type="email"],
+.wf select {
+    background-color: white;
+    display: block;
+    border: 1px solid #0581b0;
+    border-radius: 6px;
+    padding: 0.75rem;
+    color: #0581b0;
+    width: 900%;
+    max-width: 350px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    appearance: none;
+}
+.wf textarea {
+    background-color: white;
+    display: block;
+    border: solid 1.3px #0581b0;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #0581b0;
+    width: 100%;
+    max-width: 350px;
+    appearance: none;
+    margin-top: 5px ;
+    margin-bottom: 10px;
+}
+.wf input[type="submit"] {
+    background-color: #0000ee;
+    border-radius: 5px;
+    border: 1px solid #0000ee;
+    color: white;
+    padding: 15px;
+    margin: 10px 330px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.wf input[type="submit"]:hover {
+    transform: translateY(-10px) scale(1.07);
+    box-shadow: 0 10px 20px #b6b6b6;
+}
+.wf input[type="submit"]:active {
+    background-image: linear-gradient(#774f09, #967815);
+}
+.optional {
+    font-size: 0.8rem;
+    color: #0581b0;
+    font-style: italic;
+}
+.review h1,
+.review h2 {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 2rem auto;
+    color: #0948B1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wf label:not(.star-rating label) {
+    display: block;
+    padding-top: 1rem;
+    color: #0948B1;
+    font-size: 0.9rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
 
