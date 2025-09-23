@@ -177,9 +177,47 @@ footer p {
     border-radius: 15px;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.27);
 }
+h1 {
+    color: #0948b1;
+    text-align: center;
+}
 .company p {
     margin-top: 0.5rem;
     font-size: 1rem;
     color: #0948b1;
 }
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #ffffff;
+    border: #0948b1;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 3px solid #0581b0;
+    border-radius: 12px;
+    align-items: left;
+    background-color: white;
+}
+section img {
+    border: solid 2px #f49d0f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #b6b6b6;
+    filter: drop-shadow(0.5px 0.5px 0.5px #e0e0e0);
+    margin: 20px;
+    width: 85%;
+    height: 80%;
+}
+section>h2 {
+    margin: 5px;
+    color: #0948b1;
+}
+section>p {
+    margin: 3px;
+    color:#0948b1;
+}
+
 
