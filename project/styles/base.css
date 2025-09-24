@@ -1,5 +1,32 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", sans-serif;
+}
+#site-name picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #0948B1;
+}
+#site-plan h3, p, li {
+    color: #0948B1;
+}
+.wireframe1 {
+    width: 80%;
+    height: 50%;
+    margin-left: 50px;
+}
+.wireframe2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 125px;
+}
+#site-logo h1 {
+    text-align: center;
+    padding: 50px;
+}
+.text h3 {
+    color: #0948B1;
 }
 header {
     display: grid;
@@ -96,10 +123,11 @@ header span {
     text-shadow: 0 3px 6px rgba(255, 249, 249, 0.17);
     margin-top: 0.1rem;
     padding-left: 1rem;
+    color: #ffffff;
 }
 
 .hero-btn {
-    color: rgb(255, 255, 255);
+    color: #ffffff;;
     background-color: #0948b1;
     padding: 2% 2rem;
     text-decoration: none;
@@ -137,7 +165,7 @@ footer p {
     align-items: center;
     width: 24px;
     height: 24px;
-    border: white 1px solid;
+    border: #ffffff 1px solid;
     border-radius: 50%;
 }
 .social img {
@@ -151,6 +179,7 @@ footer p {
     display: block;
     padding-top: 10%;
     text-align: center;
+    color: #ffffff;
 }
 footer p {
     font-size: 8px;
@@ -165,7 +194,7 @@ footer p {
 .company {
     flex: 1 1 30%;
     text-align: center;
-    background-color: white;
+    background-color:#ffffff;
     margin: 5px;
     padding: 1rem;
     border-radius: 20px;
@@ -212,7 +241,7 @@ section {
     border: 3px solid #0581b0;
     border-radius: 12px;
     align-items: left;
-    background-color: white;
+    background-color: #ffffff;
 }
 section img {
     border: solid 2.5px #f49d0f;
@@ -259,11 +288,11 @@ dialog {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.25rem;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 3rem #a1a1a1;
     width: 40%;
     max-width: 900px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 20px;
 }
 ::backdrop {
@@ -281,7 +310,7 @@ dialog button {
     background-color:#0000ee;
     border-radius: 5px;
     border: 1px solid #0000ee;
-    color: white;
+    color: #ffffff;
     width: 50%;
     padding: 5px;
     margin-left: 85px;
@@ -298,11 +327,11 @@ dialog button {
     border: 3px solid #0581b0;
     border-radius: 12px;
     align-items: left;
-    background-color: white;
+    background-color: #ffffff;
 }
 .wf input[type="text"],input[type="tel"],input[type="email"],
 .wf select {
-    background-color: white;
+    background-color: #ffffff;
     display: block;
     border: 1px solid #0581b0;
     border-radius: 6px;
@@ -315,7 +344,7 @@ dialog button {
     appearance: none;
 }
 .wf textarea {
-    background-color: white;
+    background-color: #ffffff;
     display: block;
     border: solid 1.3px #0581b0;
     border-radius: 6px;
@@ -331,7 +360,7 @@ dialog button {
     background-color: #0000ee;
     border-radius: 5px;
     border: 1px solid #0000ee;
-    color: white;
+    color: #ffffff;
     padding: 15px;
     margin: 10px 150px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -363,7 +392,7 @@ dialog button {
     padding-top: 1rem;
     color: #0948B1;
     font-size: 0.9rem;
-    font-family: 'Arial', sans-serif;
+    font-family: "Quicksand", sans-serif;;
     font-weight: bold;
 }
 

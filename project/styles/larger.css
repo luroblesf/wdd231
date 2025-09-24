@@ -33,7 +33,7 @@
     }
     .navigation a {
         border: none;
-        background-color: white;
+        background-color: #ffffff;
         color: #0948b1;
         font-size: 1.2rem;
         text-align: center;
@@ -45,7 +45,7 @@
     }
     .navigation li.current a {
         background-color: #0948b1;
-        color: white;
+        color: #ffffff;
     }
     .social {
         display: flex;
@@ -109,7 +109,7 @@
     .company {
         flex: 1 1 30%;
         text-align: center;
-        background-color: white;
+        background-color: #ffffff;
         margin: 5px;
         padding: 1rem;
         border-radius: 20px;
@@ -130,7 +130,7 @@
         background-color: #0000ee;
         border-radius: 5px;
         border: 1px solid #0000ee;
-        color: white;
+        color: #ffffff;
         padding: 15px;
         margin: 10px 320px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
