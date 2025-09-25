@@ -181,7 +181,12 @@ footer p {
     text-align: center;
     color: #ffffff;
 }
-footer p {
+.info-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+footer p{
     font-size: 8px;
 }
 .aboutUs {
