@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/places.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
@@ -37,7 +38,15 @@
     <main class="thank-you">
         <h2>Thanks for joining us!<br>
             Your information has been entered successfull</h2><br>
-        
+            <p><strong>Name:</strong> <span id="displayName"></span></p>
+            <p><strong>Phone:</strong> <span id="displayPhone"></span></p>
+            <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+            <p><strong>Location:</strong> <span id="displayLocation"></span></p>
+            <p><strong>Service:</strong> <span id="displayService"></span></p>
+            <p><strong>Message:</strong> <span id="displayMessage"></span></p>
+            
+            <div id="orderDetails"></div><br>
+            <p><strong>Number of order:</strong> <span id="reviewCount">0</span></p>
     </main>
         
     <footer>
